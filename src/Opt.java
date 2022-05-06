@@ -27,7 +27,7 @@ public class Opt {
         else if (choice==1){
             Bank1.ShowTotal();
             System.out.println();  
-            System.out.print("Another Process? ");         
+            System.out.print("Another Process [Y/N] ? ");         
             char scanChar=sc.next().charAt(0);
 
             if(scanChar=='y'||scanChar=='Y'){
